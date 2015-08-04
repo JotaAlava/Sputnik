@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sputnik.Core", "Sputnik\Sputnik.Core.csproj", "{997B239C-24AD-44EC-8840-BAAEE2FB43D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sputnik.Models", "Sputnik.Models\Sputnik.Models.csproj", "{5CEF368A-C561-4D23-920A-117285B180BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{CED8B4EA-DE0A-4851-9D1B-3CEDD1AE58B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "xunit.net", "xunit.net", "{10AE81F7-DBDA-4C8A-B7EC-1DEA238DC690}"
+	ProjectSection(SolutionItems) = preProject
+		lib\xunit.net\HTML.xslt = lib\xunit.net\HTML.xslt
+		lib\xunit.net\license.txt = lib\xunit.net\license.txt
+		lib\xunit.net\NUnitXml.xslt = lib\xunit.net\NUnitXml.xslt
+		lib\xunit.net\xunit.console.clr4.exe = lib\xunit.net\xunit.console.clr4.exe
+		lib\xunit.net\xunit.console.clr4.exe.config = lib\xunit.net\xunit.console.clr4.exe.config
+		lib\xunit.net\xunit.console.clr4.x86.exe = lib\xunit.net\xunit.console.clr4.x86.exe
+		lib\xunit.net\xunit.console.clr4.x86.exe.config = lib\xunit.net\xunit.console.clr4.x86.exe.config
+		lib\xunit.net\xunit.console.exe = lib\xunit.net\xunit.console.exe
+		lib\xunit.net\xunit.console.exe.config = lib\xunit.net\xunit.console.exe.config
+		lib\xunit.net\xunit.console.x86.exe = lib\xunit.net\xunit.console.x86.exe
+		lib\xunit.net\xunit.console.x86.exe.config = lib\xunit.net\xunit.console.x86.exe.config
+		lib\xunit.net\xunit.dll = lib\xunit.net\xunit.dll
+		lib\xunit.net\xunit.dll.tdnet = lib\xunit.net\xunit.dll.tdnet
+		lib\xunit.net\xunit.extensions.dll = lib\xunit.net\xunit.extensions.dll
+		lib\xunit.net\xunit.extensions.xml = lib\xunit.net\xunit.extensions.xml
+		lib\xunit.net\xunit.gui.clr4.exe = lib\xunit.net\xunit.gui.clr4.exe
+		lib\xunit.net\xunit.gui.clr4.x86.exe = lib\xunit.net\xunit.gui.clr4.x86.exe
+		lib\xunit.net\xunit.gui.exe = lib\xunit.net\xunit.gui.exe
+		lib\xunit.net\xunit.gui.x86.exe = lib\xunit.net\xunit.gui.x86.exe
+		lib\xunit.net\xunit.runner.msbuild.dll = lib\xunit.net\xunit.runner.msbuild.dll
+		lib\xunit.net\xunit.runner.tdnet.dll = lib\xunit.net\xunit.runner.tdnet.dll
+		lib\xunit.net\xunit.runner.utility.dll = lib\xunit.net\xunit.runner.utility.dll
+		lib\xunit.net\xunit.runner.utility.xml = lib\xunit.net\xunit.runner.utility.xml
+		lib\xunit.net\xunit.xml = lib\xunit.net\xunit.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "vs_ext", "vs_ext", "{FCF5FEF7-0DEA-4E4B-870D-F8453961FB6C}"
+	ProjectSection(SolutionItems) = preProject
+		lib\xunit.net\vs_ext\Application.ico = lib\xunit.net\vs_ext\Application.ico
+		lib\xunit.net\vs_ext\extension.vsixmanifest = lib\xunit.net\vs_ext\extension.vsixmanifest
+		lib\xunit.net\vs_ext\License.txt = lib\xunit.net\vs_ext\License.txt
+		lib\xunit.net\vs_ext\xunit.abstractions.dll = lib\xunit.net\vs_ext\xunit.abstractions.dll
+		lib\xunit.net\vs_ext\xunit.runner.utility.dll = lib\xunit.net\vs_ext\xunit.runner.utility.dll
+		lib\xunit.net\vs_ext\xunit.runner.visualstudio.pkgdef = lib\xunit.net\vs_ext\xunit.runner.visualstudio.pkgdef
+		lib\xunit.net\vs_ext\xunit.runner.visualstudio.settings.dll = lib\xunit.net\vs_ext\xunit.runner.visualstudio.settings.dll
+		lib\xunit.net\vs_ext\xunit.runner.visualstudio.testadapter.dll = lib\xunit.net\vs_ext\xunit.runner.visualstudio.testadapter.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoSmokeTests", "PllaySmokeTests\DemoSmokeTests.csproj", "{6C0B5217-1821-4FCE-9321-95AB1062608D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{997B239C-24AD-44EC-8840-BAAEE2FB43D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{997B239C-24AD-44EC-8840-BAAEE2FB43D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{997B239C-24AD-44EC-8840-BAAEE2FB43D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{997B239C-24AD-44EC-8840-BAAEE2FB43D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CEF368A-C561-4D23-920A-117285B180BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CEF368A-C561-4D23-920A-117285B180BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CEF368A-C561-4D23-920A-117285B180BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CEF368A-C561-4D23-920A-117285B180BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C0B5217-1821-4FCE-9321-95AB1062608D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C0B5217-1821-4FCE-9321-95AB1062608D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C0B5217-1821-4FCE-9321-95AB1062608D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C0B5217-1821-4FCE-9321-95AB1062608D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{10AE81F7-DBDA-4C8A-B7EC-1DEA238DC690} = {CED8B4EA-DE0A-4851-9D1B-3CEDD1AE58B4}
+		{FCF5FEF7-0DEA-4E4B-870D-F8453961FB6C} = {10AE81F7-DBDA-4C8A-B7EC-1DEA238DC690}
+	EndGlobalSection
+EndGlobal
