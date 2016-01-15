@@ -1,6 +1,6 @@
 ﻿using OpenQA.Selenium;
 using Sputnik.Selenium;
-using Xunit;
+using NUnit.Framework;
 
 namespace Sputnik.Core.Commands
 {
